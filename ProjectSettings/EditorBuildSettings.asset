@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Splash.unity
+    guid: 7f0369eacead417449fd22e550ef4140
+  - enabled: 1
+    path: Assets/Scenes/MenuScene.unity
+    guid: 3fc8acdd13e6c734bafef6554d6fdbcd
+  - enabled: 1
+    path: Assets/Scenes/KelasBelajar.unity
+    guid: 629acee345a440d46a11116780e93f38
+  - enabled: 1
+    path: Assets/Scenes/KelasBermain.unity
+    guid: 4e5128da409bb1a409ed4f24a8c9568a
+  - enabled: 1
+    path: Assets/Scenes/Rapot.unity
+    guid: 02eb48b5a975c7d4cb0ab64fba0ae2ed
+  - enabled: 1
+    path: Assets/Scenes/KelasBermainAngka.unity
+    guid: 046f97e813b20184884aa17d727b8d64
+  - enabled: 1
+    path: Assets/Scenes/KelasBermainHuruf.unity
+    guid: 8caaeed8e46fe8f46850a869165e77ad
+  m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 85621943dfb5d3b4c88832e6edd4d031, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 3acf5f30a3b2d544e938d3e3cc71c841, type: 2}

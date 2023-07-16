@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2247663b7e453f44db3632ef6289dd97, type: 3}
+  m_Name: ScoreImage
+  m_EditorClassIdentifier: 
+  scoreImagePairs:
+  - score: 0
+    image: {fileID: 21300000, guid: aac503d3ca900b043ab7f7cef6f2bb48, type: 3}
+  - score: 1
+    image: {fileID: 21300000, guid: 90a6fa77eef10b147b9dcf7bff06acb2, type: 3}
+  - score: 2
+    image: {fileID: 21300000, guid: 198b8f9213b642a488a27ef3bca5331e, type: 3}
+  - score: 3
+    image: {fileID: 21300000, guid: 5a093c8035aabd44abe344438aa5d623, type: 3}
+  - score: 4
+    image: {fileID: 21300000, guid: 5044ad9f12275194283de1d052b81ff9, type: 3}
+  - score: 5
+    image: {fileID: 21300000, guid: 980f3c94368fa8446a8d243d1c990bbd, type: 3}
+  lifelineImagePairs:
+  - lifelines: 0
+    image: {fileID: 21300000, guid: b402ad0a0d1349547b1ee8de3c3e768c, type: 3}
+  - lifelines: 1
+    image: {fileID: 21300000, guid: fb13d9c77766aa840a74686010b1a86f, type: 3}
+  - lifelines: 2
+    image: {fileID: 21300000, guid: e2b0359a70018c0419c06254bc32564a, type: 3}
+  - lifelines: 3
+    image: {fileID: 21300000, guid: f0aa2a461dd3d554aa162529c5150a38, type: 3}
