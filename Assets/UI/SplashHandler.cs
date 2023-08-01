@@ -8,6 +8,10 @@ public class SplashHandler : MonoBehaviour
     Animation splashanim;
     public Animator anim;
     public Animator present;
+    public GameObject playbackground;
+    public GameObject splash;
+    public AudioSource audios;
+    public AudioClip clip;
     void Start()
     {
        StartCoroutine(splashAnimation());
@@ -24,6 +28,8 @@ public class SplashHandler : MonoBehaviour
     private IEnumerator splashAnimation()
     {
         yield return new WaitForSeconds(4);
-        SceneManager.LoadScene("MenuScene");
+        splash.SetActive(false);
+        playbackground.SetActive(true);
+        audios.PlayOneShot(clip);
     }
 }
