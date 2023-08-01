@@ -77,6 +77,10 @@ public class QuizOrtu : MonoBehaviour
 
         }
     }
+    
+    public void quitapp(){
+        Application.Quit();
+    }
 
     
 }
